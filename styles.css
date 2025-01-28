@@ -1,0 +1,962 @@
+/* Resetting styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Style */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Other Styling */
+/* footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+} */
+
+.about, .contact, .ticket-purchase {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form {
+    text-align: left;
+    margin-top: 1rem;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="number"] {
+    padding: 5px;
+    width: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.hero {
+    position: relative;
+    background: url('/Images/Screenshot\ 2025-01-18\ 155103.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 100vh; /* Ensure the height is 100% of the viewport on smaller screens */
+    }
+}
+
+
+
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.museum-photo {
+    max-width: 50%;
+    margin-right: 20px; /* Adjust this value to change the spacing */
+}
+
+.schedule {
+    max-width: 50%;
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin: 5px;
+}
+
+.box:nth-child(odd) {
+    margin-top: 0;
+}
+
+.box:nth-child(even) {
+    margin-top: 20px;
+}
+
+.vertical-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+
+/* filepath: /c:/Users/GigaByte/Desktop/Muzeu i Kosoves/css/styles.css */
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+}
+
+.box:nth-child(even) {
+    margin-left: 20px; /* Adjust this value to create the zigzag effect */
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 20px; /* Adjust this value to create the zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 40px; /* Adjust this value to create the zigzag effect */
+}
+
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 50px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 100px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 150px; /* Increase the width */
+    height: 150px; /* Increase the height */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 100px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 200px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 200px; /* Increase the width */
+    height: 200px; /* Increase the height */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 150px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 300px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+
+.zigzag-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 850px; /* Increase the width */
+    height: 600px; /* Increase the height */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 150px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(even) {
+    margin-left: 2000px; /* Increase this value to create a more pronounced zigzag effect */
+}
+
+.box:nth-child(odd) {
+    margin-left: 0;
+    margin-right: 2000px; /* This value creates the zigzag effect for odd boxes */
+}
+
+.box:nth-child(even) {
+    margin-left: 2000px; /* This value creates the zigzag effect for even boxes */
+}
+
+
+
+
+
+
+footer {
+   
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Added padding for better spacing */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    }
+    
+    .footer1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Added space between the two sections */
+    flex-wrap: wrap; /* Ensures the sections wrap on smaller screens */
+    width: 100%;
+    margin-bottom: 20px; /* Space between footer1 and copyright */
+    background-color: #333; /* Adjust the background color as needed */
+    }
+    
+    .footer1 div {
+    max-width: 300px; /* Ensure each section has a max width */
+    text-align: left;
+    margin-left: 160px;
+    }
+    
+    .footer1 h4 {
+    margin-bottom: 10px; /* Add some space below the heading */
+    }
+    
+    .footer1 p {
+    margin-bottom: 15px; /* Add space between paragraphs */
+    display: flex;
+    align-items: center;
+    }
+    
+    .footer1 img {
+    margin-right: 10px; /* Space between image and text */
+    }
+    
+    footer p {
+    font-size: 0.9em; /* Slightly smaller text for the copyright */
+    margin-top: 20px;
+    }
+    
+    @media (max-width: 768px) {
+    .footer1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer1 div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    footer p {
+        font-size: 0.8em; /* Adjust copyright text size on smaller screens */
+    }
+    }
+
+    
+
+    .about {
+        text-align: center;
+        max-width: 800px; /* Adjust the width as needed */
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .about h1 {
+        margin-bottom: 20px;
+    }
+    
+    .about p {
+        text-align: justify;
+    }
+
+
+
+    /* Ensure the body takes up at least 100% of the viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should take up all available space */
+main {
+    flex: 1;
+}
+
+/* Footer styling */
+footer {
+    background-color: black; /* Adjust as needed */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 100px; /* Adjust as needed */
+}
+
+.box1{
+    background-image: url('/Images/Screenshot\ 2025-01-18\ 155103.jpg');
+}
+
+.box {
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover; /* Ensures the image covers the entire box */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 10px; /* Adjust the margin as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Adjust text color as needed */
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.hero1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the boxes horizontally */
+    align-items: center; /* Centers the boxes vertically */
+    margin-top: 20px;
+}
+
+.box {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover; /* Ensures the image covers the entire box */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin: 10px; /* Adjust the margin as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Adjust text color as needed */
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+.hero1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the boxes horizontally */
+    align-items: flex-start; /* Aligns the boxes at the start vertically */
+    margin-top: 20px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.box {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover; /* Ensures the image covers the entire box */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin-right: 20px; /* Space between the box and the text */
+}
+
+.box-container p {
+    max-width: 300px; /* Adjust the width as needed */
+    text-align: justify;
+}
+
+
+
+
+
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.box {
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    background-size: cover; /* Ensures the image covers the entire box */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin-right: 20px; /* Space between the box and the text */
+}
+
+.box-container p {
+    max-width: 300px; /* Adjust the width as needed */
+    text-align:center;
+}
+
+
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    background-color: #A94A4A;
+    border-radius: 10px;
+    margin: 10px 0; /* Adjust the margin as needed */
+    padding: 20px;
+    
+    
+    color: white;
+    justify-content: center;
+}
+
+.project img {
+    height: 535px;
+    width: 525px;
+    border-radius: 100%;
+    margin-right: 20px;
+    border: 10px solid goldenrod;
+   
+}
+
+
+.project p {
+    font-weight: bold;
+    text-align: left;
+    max-width: 450px; /* Adjust the width as needed */
+}
+
+
+.image_leda {
+    height: 535px;
+    width: 525px;
+    border-radius: 100%;
+    margin-right: 20px;
+    border: 10px solid goldenrod;
+    margin-left: -465px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .project img {
+        margin: 0 0 20px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .project p {
+        max-width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .project img {
+        height: auto;
+    }
+
+    .project p {
+        font-size: 0.9em;
+    }
+}
+
+
+
+
+.about {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between images as needed */
+    margin-bottom: 20px;
+}
+
+.photo-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.about p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+.about {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between images and text as needed */
+    margin-bottom: 20px;
+}
+
+.photo-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.photo-row p {
+    max-width: 600px; /* Adjust the width as needed */
+    text-align: justify;
+}
+
+.about {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about h1 {
+    margin-bottom: 20px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Increase the gap between images and text */
+    margin-bottom: 20px;
+}
+
+.photo-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+}
+
+.photo-row p {
+    max-width: 600px; /* Adjust the width as needed */
+    text-align: justify;
+    margin: 0 20px; /* Add margin to the left and right of the text */
+}
+
+
+
+
+
+
+
+
+    .rrethnesh {
+        animation: fadeInn 2s ease-in-out;
+        }
+        .hero h1 {
+        animation: fadeIn 2s ease-in-out;
+        }
+        
+        .hero p {
+        animation: fadeIn 3s ease-in-out;
+        }
+        
+        .contact { 
+        animation: fadeInn 3s ease-in-out;
+        }
+        
+        header {
+        animation: fadeInnnn 2s ease-in-out;
+        }
+        
+        .btn{
+        animation: fadeInnnn 2s ease-in-out;
+        }
+
+
+        .main-about{
+            animation: fadeIn 2s ease-in-out;   
+        }
+        
+        body{
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+        
+        @keyframes fadeInn {
+        
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+        
+        @keyframes fadeInnn {
+        
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+        
+        @keyframes fadeInnnn {
+        
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer1, .footer2 {
+            margin-top: 20px;
+        }
+        
+        .footer1 h4, .footer2 h4 {
+            margin-bottom: 10px;
+        }
+        
+        .footer1 p, .footer2 p {
+            margin: 5px 0;
+        }
+        
+        .footer1 a, .footer2 a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer1 a:hover, .footer2 a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            margin: 0;
+            padding: 0;
+        }
+        
+      
+        
+        .contact form button {
+            padding: 10px 20px;
+            background: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        .contact {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .contact form {
+            max-width: 500px;
+            margin: 20px auto;
+        }
+        
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+     
+
+       
+
+
+
+        li{
+            float: center;
+            position: relative;
+            margin-left: 46px;
+            text-align: right;
+            color: white;
+            }
+            li > a {
+            text-decoration: none;
+            color: white;
+            }
+            li > a {
+            text-decoration: none;
+            color: white;
+            }
+            li > a:hover,
+            li > a.active {
+            color: white;
+            }
+            li > a:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #ff2e2e;
+            visibility: hidden;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            /* -webkit-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s; */
+            }
+            li> a:hover:before,
+            li> a.active:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);}
+            li > a:before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #ff2e2e;
+            visibility: hidden;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+            }
+            li > a:hover:before,
+            li > a.active:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            }
+        
+
+
+            .project {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            
+            .project:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+
+
+
+
+            
